@@ -37,20 +37,18 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 2vh;
-  gap: 2vw;
 }
 button{
   border: 0;
   border-radius: 1rem;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   background-color: black;
   color: white;
-  margin: 0px 10px;
+  margin: 0px 1rem;
   transition-property: transform;
   transition-duration: 0.3s;
   transition-timing-function: ease;
   transition-delay: 0s;
-  font-size: 1rem;
 }
 button:hover{
   background-color: rgb(66, 66, 66);
