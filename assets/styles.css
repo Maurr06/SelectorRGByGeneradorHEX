@@ -1,0 +1,78 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000000;
+}
+
+#cuadroRGB{
+  padding: 20px 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 15px 15px 0px black;
+}
+#cuadroGEN{
+  padding: 100px 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 15px 15px 0px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#TEXTOCOLOR{
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 20px;
+}
+.contenedorbarras{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contenedorbotones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+button{
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  margin: 0px 10px;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+button:hover{
+  background-color: rgb(66, 66, 66);
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+button:active{
+  background-color: rgb(136, 136, 136);
+}
+p{
+  margin: 5px;
+}
+input[type="range"]{
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 15px;
+  border-radius: 16px;
+}
+#TituloGenerador{
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}

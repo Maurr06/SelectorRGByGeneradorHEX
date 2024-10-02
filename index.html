@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <title>Selector de colores RGB</title>
+  </head>
+
+  <body>
+
+    <div id="SELECTOR" >
+      <div id="cuadroRGB" >
+        <p id="TEXTOCOLOR">RGB(0,0,0)</p>
+        <div class="contenedorbarras">
+      
+          <div class="contenedorbarras">
+            <p>Red (R)</p>
+            <input id="barraRoja" type="range" min="0" max="255" value="0"/>
+            <p><output id="salidaRojo"></output></p>
+          </div>
+          <div class="contenedorbarras">
+            <p>Green (G)</p>
+            <input id="barraVerde" type="range" min="0" max="255" value="0"/>
+            <p><output id="salidaVerde"></output></p>
+          </div>
+          <div class="contenedorbarras">
+            <p>Blue (B)</p>
+            <input id="barraAzul" type="range" min="0" max="255" value="0"/>
+            <p><output id="salidaAzul"></output></p>
+          </div>
+        </div>
+        <div class="contenedorbotones">
+          <button id="boton1">Usar generador</button>
+          <button id="boton2">Reestablecer</button>
+        </div>
+      
+      </div>
+    </div>
+
+    <div id="GENERADOR" hidden>
+      <div id="cuadroGEN">
+        <p id="TituloGenerador">#000000</p>
+
+        <div class="contenedorbotones">
+          <button id="boton3">Usar RGB</button>
+          <button id="boton4">Generar nuevo</button>
+          <button id="boton5">Reestablecer</button>
+        </div>
+
+      </div>
+    </div>
+  </body>
+  <script src="assets/app.js"></script>
+</html>
